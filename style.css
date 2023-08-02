@@ -45,9 +45,9 @@ body {
 .nav-bar-list li {
     padding-left: 24px;
     font-size: 20px;
-    text-decoration: none;
     list-style: none;
     color: black;
+    text-decoration: none;
 }
 
 /* header */
@@ -169,7 +169,7 @@ body {
 } 
 
 .dashboard-box1-des p, .dashboard-box2-des p, .dashboard-box3-des p {
-    font-size: 16px;
+    font-size: 18px;
     margin: 8px 0px;
 }
 
@@ -212,6 +212,10 @@ body {
     flex-direction: column;
 }
 
+.courses-card1:hover, .courses-card2:hover, .courses-card3:hover, .courses-card4:hover, .courses-card5:hover, .courses-card6:hover {
+    background-color: rgb(182, 182, 182);
+}
+
 .card-1-pic, .card-2-pic, .card-3-pic, .card-4-pic, .card-5-pic, .card-6-pic {
     display: flex;
     flex-direction: row;
@@ -241,5 +245,121 @@ body {
     font-size: 18px;
 }
 
+/* End Courses */
 
+/* Thesis */
 
+.thesis {
+    padding: 32px 24px;
+}
+
+.thesis .thesis-title {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.thesis .thesis-title h2 {
+    font-size: 32px;
+    padding: 0;
+    margin: 0;
+}
+
+.thesis .thesis-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 32px 0px 0px 0px;
+}
+
+.thesis .thesis-container .thesis-left-side {
+    padding: 0px 24px 0px 0px;
+}
+
+/* .thesis-left-side .thesis-video {
+
+} */
+
+.thesis-video .thesis-vid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* .thesis-left-side .thesis-describe {
+} */
+
+.thesis-left-side .thesis-describe h2 {
+    padding: 24px 0px 8px 0px;
+    margin: 0px;
+}
+
+.thesis-left-side .thesis-describe p {
+    color: gainsboro;
+    margin: 0;
+    padding: 0;
+}
+
+.thesis-right-side {
+    display: flex;
+    flex-direction: column;   
+}
+
+.thesis-box1:hover, .thesis-box2:hover {
+    background-color: rgb(212, 209, 209);
+
+}
+
+.thesis-box1, .thesis-box2 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    border: 1px solid gray;
+} 
+
+.thesis-box1-pic, .thesis-box2-pic {
+    margin: 16px;
+}
+
+.thesis-box1-img, .thesis-box2-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.thesis-box1-des, .thesis-box2-des {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.thesis-box1-des h2, .thesis-box2-des h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 0px;
+} 
+
+.thesis-box1-des p, .thesis-box2-des p {
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+/* footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+    margin: 0px 24px 0px 24px;
+}
+
+footer .term{
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li {
+    list-style: none;
+    margin-left: 16px;
+}
+
+/* responsive */
