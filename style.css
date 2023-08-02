@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'REM', sans-serif;
+}
+
+/* header */
+
+.header {
+    width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo .logo-img {
+    padding-left: 24px;
+    max-height: 32px;
+}
+
+.logo .logo-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.logo .span-logo-name {
+    font-weight: 200;
+}
+
+.nav-bar-list {
+    display: flex;
+    align-items: center;   
+    margin-right: 24px;
+    
+}
+
+.nav-bar-list li {
+    padding-left: 24px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+/* header */
+
+/* introduction */
+
+.introduction {
+    background-color: gray;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.introduction .banner-class {
+    padding: 32px 24px; 
+}
+
+.introduction .banner-class .banner-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.introduction .banner-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 32px 24px 32px 0px;
+}
+
+.introduction .banner-caption h1 {
+    font-size: 48px;
+    font-style: Arial;
+}
+
+.introduction .banner-caption p {
+    font-size: 24px;
+}
+
+.introduction .btn-1 {
+    width: 100%;
+    background-color: rgb(51, 50, 49);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px 0;
+}
