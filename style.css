@@ -3,6 +3,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'REM', sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 /* header */
@@ -42,7 +44,7 @@ body {
     
 }
 
-.nav-bar-list li {
+.nav-bar-list li, a {
     padding-left: 24px;
     font-size: 20px;
     list-style: none;
