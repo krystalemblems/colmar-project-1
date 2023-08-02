@@ -254,6 +254,10 @@ body {
     font-size: 18px;
 }
 
+.courses-mobile {
+    display: none;
+}
+
 /* End Courses */
 
 /* Thesis */
@@ -454,14 +458,42 @@ footer ul li {
         height: auto;
     }
 
-    .mobile-dashboard-box1-des, .mobile-dashboard-box2-des, .mobile-dashboard-box3-des {
+    .mobile-dashboard-box1-des, .mobile-dashboard-box2-des {
         padding: 16px 16px 64px 16px;
+    }
+
+    .mobile-dashboard-box3-des{
+        padding: 16px 16px 32px 16px;
     }
 
     .mobile-dashboard-box1-des h3, .mobile-dashboard-box2-des h3, .mobile-dashboard-box3-des h3 {
         margin: 0px;
     }
+    
+    .courses{
+        background-color: white;
+    }
+
     .courses .courses-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .courses-mobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .courses-mobile h2 {
+        border: 1px solid black;
+        width: 100%;
+        text-align: center;
+    }
+
+    .courses-card1, .courses-card2, .courses-card3, .courses-card4, .courses-card5, .courses-card6 {
         display: none;
     }
 
