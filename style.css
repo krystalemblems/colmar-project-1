@@ -93,3 +93,89 @@ body {
     text-decoration: none;
     padding: 8px 0;
 }
+
+/* Introduction End */
+
+/* Information */
+
+.information {
+    margin: 32px 24px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.information .left-side-information-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 24px;
+}
+
+.information .left-side-information-container .information-img {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.information .left-side-information-container .information-info-container h2 {
+    font-size: 36px;
+    padding-top: 32px;
+    padding-bottom: 24px;
+    margin: 0;
+}
+
+.information .left-side-information-container .information-info-container .describe-information {
+    font-size: 18px;
+    margin: 0;
+}
+
+.information .left-side-information-container .information-info-container .author-information {
+    font-size: 18px;
+    margin-top: 32px;
+}
+
+.information .right-side-information-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.dashboard-box1, .dashboard-box2, .dashboard-box3 {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    padding: 16px;
+    margin: 0;
+    border: 1px solid gray;
+
+}
+
+.dashboard-box1:hover, .dashboard-box2:hover, .dashboard-box3:hover {
+    background-color: rgb(212, 209, 209);
+
+}
+
+.dashboard-box1-img, .dashboard-box2-img, .dashboard-box3-img {
+    margin-right: 16px;
+}
+
+.box1-img , .box2-img , .box3-img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dashboard-box1-des h3, .dashboard-box2-des h3, .dashboard-box3-des h3 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 0px;
+} 
+
+.dashboard-box1-des p, .dashboard-box2-des p, .dashboard-box3-des p {
+    font-size: 18px;
+    margin: 8px 0px;
+}
+
+.dashboard-box1-des a, .dashboard-box2-des a, .dashboard-box3-des a {
+    text-decoration: none;
+    color: rgb(49, 154, 185);
+}
+
+/* Information end */
